@@ -84,10 +84,10 @@ msgid "HALADABLTI1@ABILTY"
 msgstr "Heraldry"
 
 msgid "HALADABLTI1@DISCRIPT"
-msgstr "Caster and friendly units in a 2-hex radius gain:[bulletlist][bullet/]{GLOBAL.PROPERTIES.BOLSTERED_DEFENSE.Hyperlink}[bullet/]{GLOBAL.PROPERTIES.BOLSTERED_RESISTANCE.Hyperlink}[bullet/]{GLOBAL.PROPERTIES.STRENGTHENED.Hyperlink}[bullet/]{GLOBAL.PROPERTIES.RALLYING.Hyperlink}[bullet/]Heal +30<<m:{GLOBAL.TemporaryHitPointConcept.Hyperlink}>>."
+msgstr "The caster and all friendly units within 2-hex radius gains:[bulletlist][bullet/]{GLOBAL.PROPERTIES.BOLSTERED_DEFENSE.Hyperlink}[bullet/]{GLOBAL.PROPERTIES.BOLSTERED_RESISTANCE.Hyperlink}[bullet/]{GLOBAL.PROPERTIES.STRENGTHENED.Hyperlink}[bullet/]{GLOBAL.PROPERTIES.RALLYING.Hyperlink}[bullet/]Heal +30<<m:{GLOBAL.TemporaryHitPointConcept.Hyperlink}>>."
 
 msgid "HALADABLTI2@DISCRIPT"
-msgstr "At the end of each turn, Random friendly unit without this trait within 2 hexes gains {GLOBAL.PROPERTIES.STEADFAST.Hyperlink}."
+msgstr "At the end of each turn, a random friendly unit without this trait within 2 hexes gains {GLOBAL.PROPERTIES.STEADFAST.Hyperlink}."
 
 msgid "ASTRALWAR1@NAME"
 msgstr "Mage Armor"
@@ -108,10 +108,10 @@ msgid "ERUDITE1@NAME"
 msgstr "Conjure Defensive Pylon"
 
 msgid "ERUDITE1@DISCRIPT"
-msgstr "Summon a {GLOBAL.UNITS.MANSIPION_UNIT.Hyperlink} at target loction. Can Protect friendly units with {GLOBAL.PROPERTIES.WARDING_BONDCRYSTAL.Hyperlink}.[br/]This summon last until the end of combat."
+msgstr "Summon a {GLOBAL.UNITS.MANSIPION_UNIT.Hyperlink} at target location. It can Protect friendly units with {GLOBAL.PROPERTIES.WARDING_BONDCRYSTAL.Hyperlink}.[br/]This summon last until the end of combat."
 
 msgid "MIROIRSHELD@DESCRIPTION"
-msgstr "Reflects 20% of damage sustained from {GLOBAL.MagicConcept.Hyperlink} attacks back onto attackers."
+msgstr "{GLOBAL.MagicConcept.Hyperlink} attacks are reflected back at the attackers for 20% of the damage."
 
 msgid "MIROIRSHELD@NAME"
 msgstr "Mirror Shield"
@@ -123,22 +123,22 @@ msgid "BALIUSTR@NAME"
 msgstr "Fortified Ballista"
 
 msgid "BALIUSTR@DISCRIPT"
-msgstr "Summon a {GLOBAL.UNITS.VANGUARDBALLISTA_TOWER_UNIT.Hyperlink} at target loction. Leave behind cover on death.[br/]This summon last for 4 <<m:{GLOBAL.TurnConcept}>> "
+msgstr "Summon a {GLOBAL.UNITS.VANGUARDBALLISTA_TOWER_UNIT.Hyperlink} at target location, a {GLOBAL.PROPERTIES.SIEGECRAFT_UNIT.Hyperlink} unit that will leave behind a cover upon death.[br/]This summon last for 4 <<m:{GLOBAL.TurnConcept}>> "
 
 msgid "SENTRU@NAME"
 msgstr "Intervene"
 
 msgid "SENTRU@DESCRIPTION"
-msgstr "Jump to target friendly unit, Damage sustained by the target friendly unit is transferred to this unit with a {WARDING_BOND_MARTYR>ResolvedDamageMultiplier}% reduction. This effect last until next turn."
+msgstr "Jump to target friendly unit. Damage sustained by the target friendly unit is transferred to this unit with a {WARDING_BOND_MARTYR>ResolvedDamageMultiplier}% reduction. This effect last until next turn."
 
 msgid "SENTRU1@NAME"
 msgstr "Rune of Retribution"
 
 msgid "SENTRRT@RUNE_OF_RETALIATION@DESCRIPTION"
-msgstr "Adjacent friendly units reflects 20% of damage sustained from {GLOBAL.MeleeConcept.Hyperlink} attacks back onto attackers."
+msgstr "Adjacent friendly units reflects 20% of damage sustained from {GLOBAL.MeleeConcept.Hyperlink} attacks back onto the attackers."
 
 msgid "SENTRRT1@RUNE_OF_RETALIATION@DESCRIPTION"
-msgstr "Reflects 20% of damage sustained from {GLOBAL.MeleeConcept.Hyperlink} attacks back onto attackers."
+msgstr "{GLOBAL.MeleeConcept.Hyperlink} attacks are reflected back at the attacker for 20% of the damage."
 
 msgid "AOW3OPUNIT@NAME"
 msgstr "Sun Shield"
@@ -206,7 +206,7 @@ msgid "CRACKTHE3WIPP@ABILITY@NAME"
 msgstr "Crack the Whip"
 
 msgid "CRACKTHEWIPP@ABILITY@NAME"
-msgstr "Target {GLOBAL.PROPERTIES.TRAHALEE.Hyperlink} get +40% damage, base 60% chance to inflict {GLOBAL.PROPERTIES.BLEEDING.Hyperlink}."
+msgstr "Target {GLOBAL.PROPERTIES.TRAHALEE.Hyperlink} gains +40% damage and a base 60% chance to inflict {GLOBAL.PROPERTIES.BLEEDING.Hyperlink}."
 
 msgid "TRAHACK@UNIT"
 msgstr "Thrall^m"
@@ -227,7 +227,7 @@ msgid "EXECUTARA@MODIFIER@DESCRIPTION"
 msgstr "Low chance to kill {GLOBAL.PROPERTIES.WEAKENED.Hyperlink} units instantly. Chance increases by the amount of health the target is missing."
 
 msgid "EXECUTARASHELD@MODIFIER@DESCRIPTION"
-msgstr "This unit has +2 {GLOBAL.DefenseConcept.Hyperlink} against {GLOBAL.PROPERTIES.WEAKENED.Hyperlink} targets and attackers have a 60% chance of gaining {GLOBAL.PROPERTIES.WEAKENED.Hyperlink}."
+msgstr "This unit has +2 {GLOBAL.DefenseConcept.Hyperlink} against {GLOBAL.PROPERTIES.WEAKENED.Hyperlink} attackers.[br/]Attackers have a 60% chance of gaining {GLOBAL.PROPERTIES.WEAKENED.Hyperlink}."
 
 msgid "EXCEYTRSHIPLD@MODIFIER@DESCRIPTION"
 msgstr "Brutal Barrier"
@@ -236,7 +236,7 @@ msgid "TRAHALL@MODIFIER@DESCRIPTION"
 msgstr "This unit can be affected by Thrallmaster abilities."
 
 msgid "COMPANYONSHOT@MODIFIER@DESCRIPTION"
-msgstr "Chance to deal an additional 6 {GLOBAL.PhysicalDamageConcept.Hyperlink} to target. Chance increases by the amount of health the target is missing."
+msgstr "Chance to deal an additional 6 {GLOBAL.PhysicalDamageConcept.Hyperlink} to target. The chances are increases by the amount of health the target is missing."
 
 msgid "MODIFIER@DESCRIPTION"
 msgstr "Lethal Shot"
@@ -248,9 +248,7 @@ msgid "CORUSER@DESCRIPTION"
 msgstr "Primal Roar"
 
 msgid "CORUSER@ABILTYS"
-msgstr ""
-"Friendly units in a 2-hex radius gain:[bulletlist][bullet/]{GLOBAL.PROPERTIES.BOLSTERED_DEFENSE.Hyperlink}[bullet/]{GLOBAL.PROPERTIES.BOLSTERED_RESISTANCE.Hyperlink}[bullet/]{GLOBAL.PROPERTIES.PRIMAL_FURY.Hyperlink}[/bulletlist]                                                          [bulletlist]Enemy units have a base 90% Chance of receiving:[bullet/]{GLOBAL.PROPERTIES.SUNDERED_DEFENSE.Hyperlink}[bullet/]{GLOBAL.PROPERTIES.SUNDERED_RESISTANCE.Hyperlink}"
-"[/bulletlist]"
+msgstr "Friendly units in a 2-hex radius gain:[bulletlist][bullet/]{GLOBAL.PROPERTIES.BOLSTERED_DEFENSE.Hyperlink}[bullet/]{GLOBAL.PROPERTIES.BOLSTERED_RESISTANCE.Hyperlink}[bullet/]{GLOBAL.PROPERTIES.PRIMAL_FURY.Hyperlink}[/bulletlist][br/]Enemy units have a base 90% Chance of receiving:[bulletlist][bullet/]{GLOBAL.PROPERTIES.SUNDERED_DEFENSE.Hyperlink}[bullet/]{GLOBAL.PROPERTIES.SUNDERED_RESISTANCE.Hyperlink}[/bulletlist]"
 
 msgid "AMBUDSHER@DESCRIPTION"
 msgstr "Withdrawing Shot"
@@ -274,10 +272,10 @@ msgid "REPOSE@DEFENSE_MODE_SHIELD_WALL@DESCRIPTION"
 msgstr "This unit ends its turn and goes into a defensive mode:[bulletlist][bullet/]Extends its {GLOBAL.ZoneOfControlConcept.Hyperlink} to all adjacent hexes.[bullet/]Gains +2 {GLOBAL.DefenseConcept.Hyperlink}.[bullet/]Gains +2 {GLOBAL.ResistanceConcept.Hyperlink}.[bullet/]Gain {GLOBAL.PROPERTIES.FIRST_STRIKE.Hyperlink}.[bullet/]Gain +1 {GLOBAL.RetaliationConcept.Hyperlink}.[bullet/]Immune to {GLOBAL.FlankingConcept.Hyperlink}."
 
 msgid "BOUNTYHUNFINISHIM@DESCRIPTION"
-msgstr "+30% damage to units with {GLOBAL.PROPERTIES.BLINDED.Hyperlink}, {GLOBAL.PROPERTIES.STUNNED.Hyperlink} or {GLOBAL.PROPERTIES.IMMOBILIZED.Hyperlink}"
+msgstr "Deals +30% damage to units with {GLOBAL.PROPERTIES.BLINDED.Hyperlink}, {GLOBAL.PROPERTIES.STUNNED.Hyperlink} or {GLOBAL.PROPERTIES.IMMOBILIZED.Hyperlink}"
 
 msgid "GORILA12@UNIT"
-msgstr "At the start of battle, summon a Observer."
+msgstr "At the start of battle, summon an Observer."
 
 msgid "GFG@UNIT"
 msgstr "Spotter"
@@ -292,7 +290,7 @@ msgid "HARADLDNEW@UNIT12@ABILITY1@NAME"
 msgstr "Stand Your Ground"
 
 msgid "HALADABLTIDAS32NEW@DISCRIPT"
-msgstr "Target Friendly unit:[bulletlist][bullet/]{GLOBAL.PROPERTIES.BOLSTERED_RESISTANCE.Hyperlink}[bullet/]{GLOBAL.PROPERTIES.BOLSTERED_DEFENSE.Hyperlink}[bullet/]Heal +10<<m:{GLOBAL.TemporaryHitPointConcept.Hyperlink}>>[/bulletlist]."
+msgstr "Target Friendly unit:[bulletlist][bullet/]Gains {GLOBAL.PROPERTIES.BOLSTERED_RESISTANCE.Hyperlink}[bullet/]{GLOBAL.PROPERTIES.BOLSTERED_DEFENSE.Hyperlink}[bullet/]Heal +10 <<m:{GLOBAL.TemporaryHitPointConcept.Hyperlink}>>[/bulletlist]."
 
 msgid "RANGERREWORK@UNIT@ABILITY1@NAME"
 msgstr "Ranger Tactics"
@@ -316,7 +314,7 @@ msgid "HITRUN@UNIT@ABILITY1@NAME"
 msgstr "Hit and Run"
 
 msgid "HITRUN@UNIT@ABILITY1@DESCRIPTION"
-msgstr "After using {GLOBAL.MeleeConcept.Hyperlink} abilty, this unit regains half their {GLOBAL.ActionPointConcept.Hyperlink but can no longer attack."
+msgstr "After using {GLOBAL.MeleeConcept.Hyperlink} ability, this unit regains half their {GLOBAL.ActionPointConcept.Hyperlink} but can no longer attack."
 
 msgid "CQB@UNIT@ABILITY1@NAME"
 msgstr "Close Quarters Battle"
@@ -340,7 +338,7 @@ msgid "BULWAKDEF@UNIT@ABILITY1@NAME"
 msgstr "Defense Mode: Bulwark"
 
 msgid "BULWAKDEF@DEFENSE_MODE_SHIELD_WALL@DESCRIPTION"
-msgstr "This unit ends its turn and goes into a defensive mode:[bulletlist][bullet/]Extends its {GLOBAL.ZoneOfControlConcept.Hyperlink} to all adjacent hexes.[bullet/]+4 {GLOBAL.DefenseConcept.Hyperlink}.[bullet/]+2 {GLOBAL.ResistanceConcept.Hyperlink}.[bullet/]Immune to {GLOBAL.FlankingConcept.Hyperlink}.[bullet/]All adjacent friendly units gain +5 {GLOBAL.DefenseConcept.Hyperlink}."
+msgstr "This unit ends its turn and goes into a defensive mode:[bulletlist][bullet/]Extends its {GLOBAL.ZoneOfControlConcept.Hyperlink} to all adjacent hexes.[bullet/]+4 {GLOBAL.DefenseConcept.Hyperlink}.[bullet/]+2 {GLOBAL.ResistanceConcept.Hyperlink}.[bullet/]Immune to {GLOBAL.FlankingConcept.Hyperlink}.[bullet/]All adjacent friendly units gain +5 {GLOBAL.DefenseConcept.Hyperlink}.[/bulletlist]"
 
 msgid "CUSTADIOAN@UNIT@ABILITY1@NAME"
 msgstr "Custodian"
@@ -358,31 +356,31 @@ msgid "BACKBANNER@UNIT@ABILITY1@NAME"
 msgstr "Fearless Leadership"
 
 msgid "BACKBANNER@UNIT@ABILITY1@DESCRIPTION"
-msgstr "Adjacent friendly unit Gains {GLOBAL.PROPERTIES.FEARLESS.Hyperlink}."
+msgstr "Adjacent friendly unit gains {GLOBAL.PROPERTIES.FEARLESS.Hyperlink}."
 
 msgid "SHISLAM@UNIT@ABILITY1@NAME"
 msgstr "Shield Slam"
 
 msgid "SHISLAM@UNIT@ABILITY1@DESCRIPTION"
-msgstr "Strike target enemy unit. This unit enters {GLOBAL.DefenseModeConcept.Hyperlink}."
+msgstr "Strike the target enemy unit. This unit enters {GLOBAL.DefenseModeConcept.Hyperlink}."
 
 msgid "DEFSTANC@UNIT@ABILITY1@NAME"
 msgstr "Defensive Stance"
 
 msgid "DEFSTANC@UNIT@ABILITY1@DESCRIPTION"
-msgstr "Improve defensive capabilities at the cost of offensive. Replace {GLOBAL.PROPERTIES.BACKSHIELD_D.Hyperlink}, {GLOBAL.DefenseModeConcept.Hyperlink} and {GLOBAL.PROPERTIES.GENERICK_ATTAK.Hyperlink} with {GLOBAL.PROPERTIES.SCUDNDSHIELD_DEFEN.Hyperlink}, {GLOBAL.PROPERTIES.SHEILD.Hyperlink} and {GLOBAL.PROPERTIES.SLAMA.Hyperlink}."
+msgstr "Improve defensive capabilities at the cost of offensive capabilities. Replaces:[bulletlist][bullet/]{GLOBAL.PROPERTIES.BACKSHIELD_D.Hyperlink}.[bullet/]{GLOBAL.DefenseModeConcept.Hyperlink}.[bullet/]{GLOBAL.PROPERTIES.GENERICK_ATTAK.Hyperlink}[/bulletlist]. [br/]with:[bulletlist][bullet/]{GLOBAL.PROPERTIES.SCUDNDSHIELD_DEFEN.Hyperlink}.[bullet/]{GLOBAL.PROPERTIES.SHEILD.Hyperlink}.[bullet/]{GLOBAL.PROPERTIES.SLAMA.Hyperlink}.[/bulletlist]"
 
 msgid "OFFFSTANC@UNIT@ABILITY1@NAME"
 msgstr "Offensive Stance"
 
 msgid "OFFFSTANC@UNIT@ABILITY1@DESCRIPTION"
-msgstr "Improve offensive capabilities at the cost of defensive. Replace {GLOBAL.PROPERTIES.SCUDNDSHIELD_DEFEN.Hyperlink}, {GLOBAL.PROPERTIES.SHEILD.Hyperlink} and {GLOBAL.PROPERTIES.SLAMA.Hyperlink} with {GLOBAL.PROPERTIES.BACKSHIELD_D.Hyperlink}, {GLOBAL.DefenseModeConcept.Hyperlink} and {GLOBAL.PROPERTIES.GENERICK_ATTAK.Hyperlink}."
+msgstr "Improve offensive capabilities at the cost of defensive capabilities. Replaces:[bulletlist][bullet/]{GLOBAL.PROPERTIES.SCUDNDSHIELD_DEFEN.Hyperlink}.[bullet/]{GLOBAL.PROPERTIES.SHEILD.Hyperlink}.[bullet/]{GLOBAL.PROPERTIES.SLAMA.Hyperlink}[/bulletlist]. with:[bulletlist][bullet/]{GLOBAL.PROPERTIES.BACKSHIELD_D.Hyperlink}.[bullet/]{GLOBAL.DefenseModeConcept.Hyperlink}.[bullet/]{GLOBAL.PROPERTIES.GENERICK_ATTAK.Hyperlink}.[/bulletlist]"
 
 msgid "OVERPOWER@UNIT@ABILITY1@NAME"
 msgstr "Overpower"
 
 msgid "OVERPOWER@UNIT@ABILITY1@DESCRIPTION"
-msgstr "Non-{GLOBAL.FlankingConcept.Hyperlink} attacks deal +30% damage to {GLOBAL.PROPERTIES.POLEARM_UNIT.Hyperlink} and {GLOBAL.PROPERTIES.SHIELD_UNIT.Hyperlink}."
+msgstr "Non-{GLOBAL.FlankingConcept.Hyperlink} attacks deals +30% damage to {GLOBAL.PROPERTIES.POLEARM_UNIT.Hyperlink} and {GLOBAL.PROPERTIES.SHIELD_UNIT.Hyperlink}."
 
 msgid "WARDIN@UNIT@ABILITY1@NAME"
 msgstr "Damage sustained by the target friendly unit is transferred to this unit with a 80% reduction."
@@ -397,10 +395,10 @@ msgid "CONCEPT@WARDERDEFENSE@DESCRIPTION"
 msgstr "Defense Mode is a {GLOBAL.UnitConcept.Hyperlink} ability. When in Defense Mode, a unit:[bulletlist][bullet/]Extends its {GLOBAL.ZoneOfControlConcept.Hyperlink} to all adjacent hexes.[bullet/]Gains {defense} {GLOBAL.DefenseConcept.Hyperlink}.[bullet/]Gains {resistance} {GLOBAL.ResistanceConcept.Hyperlink}.[bullet/]Gain 2 stacks of {GLOBAL.PROPERTIES.STAR_ARMOR1HGFA.Hyperlink}.[bullet/]Is immune to {GLOBAL.FlankingConcept.Hyperlink}.[/bulletlist]"
 
 msgid "ASTRALWAR2@BOLSTERED_ARMOR@DESCRIPTION"
-msgstr "This unit has +1 {GLOBAL.DefenseConcept.Hyperlink} and +1 {GLOBAL.ResistanceConcept.Hyperlink}[br/]Stacks up to 3 times. Lose 1 stack when unit take damage and gain 1 when a spell is cast."
+msgstr "This unit has +1 {GLOBAL.DefenseConcept.Hyperlink} and +1 {GLOBAL.ResistanceConcept.Hyperlink}[br/]Stacks up to 3 times. Loses 1 stack when this unit takes damage and gains 1 stack when a spell is cast."
 
 msgid "ASTRALWAR3@BOLSTERED_ARMOR@DESCRIPTION"
-msgstr "Unit starts combat with 3 stacks of {GLOBAL.PROPERTIES.STAR_ARMOR1HGFA.Hyperlink}. Lose one stack when unit take damage and gain 1 when a spell is cast."
+msgstr "Unit starts combat with 3 stacks of {GLOBAL.PROPERTIES.STAR_ARMOR1HGFA.Hyperlink}. Loses one stack when this unit take damage and gains 1 stack when a spell is cast."
 
 msgid "RADIUSCIRCEL@ABILTY"
 msgstr "Damage adjacent enemy units. Enter {GLOBAL.DefenseModeConcept.Hyperlink} after use."
@@ -439,7 +437,7 @@ msgid "HURSHOT@S"
 msgstr "Hurried Shot"
 
 msgid "HURSHOT@DISCRIPTT"
-msgstr "Gain {GLOBAL.PROPERTIES.HASTENED.Hyperlink} for 1<<m:{GLOBAL.TurnConcept}>>"
+msgstr "Gain {GLOBAL.PROPERTIES.HASTENED.Hyperlink} for 1 <<m:{GLOBAL.TurnConcept}>>"
 
 msgid "HASTAATTA@S"
 msgstr "Rapid Assault"
